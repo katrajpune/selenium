@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29738" started-at="2021-07-17T05:41:28Z" finished-at="2021-07-17T05:41:57Z">
+    <groups>
+    </groups>
+    <test name="chrome_Test" duration-ms="17380" started-at="2021-07-17T05:41:28Z" finished-at="2021-07-17T05:41:45Z">
+      <class name="testng.MultiBrowserTesting">
+        <test-method status="PASS" signature="TC(java.lang.String)[pri:0, instance:testng.MultiBrowserTesting@5a39699c]" name="TC" duration-ms="17342" started-at="2021-07-17T11:11:28Z" finished-at="2021-07-17T11:11:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+      </class> <!-- testng.MultiBrowserTesting -->
+    </test> <!-- chrome_Test -->
+    <test name="firefox_Test" duration-ms="12308" started-at="2021-07-17T05:41:45Z" finished-at="2021-07-17T05:41:57Z">
+      <class name="testng.MultiBrowserTesting">
+        <test-method status="PASS" signature="TC(java.lang.String)[pri:0, instance:testng.MultiBrowserTesting@34ce8af7]" name="TC" duration-ms="12308" started-at="2021-07-17T11:11:45Z" finished-at="2021-07-17T11:11:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC -->
+      </class> <!-- testng.MultiBrowserTesting -->
+    </test> <!-- firefox_Test -->
+  </suite> <!-- Suite -->
+</testng-results>

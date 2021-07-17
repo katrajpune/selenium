@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="broswerName" value="firefox"/>
+  <test name="chrome_Test">
+    <parameter name="broswerName" value="chrome"/>
+    <classes>
+      <class name="testng.MultiBrowserTesting"/>
+    </classes>
+  </test> <!-- chrome_Test -->
+  <test name="firefox_Test">
+    <parameter name="broswerName" value="firefox"/>
+    <classes>
+      <class name="testng.MultiBrowserTesting"/>
+    </classes>
+  </test> <!-- firefox_Test -->
+</suite> <!-- Failed suite [Suite] -->
